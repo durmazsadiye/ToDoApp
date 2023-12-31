@@ -1,0 +1,103 @@
+/* App.css */
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .motivation {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .motivation p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .task-input-container {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .task-input-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .task-input-container button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .tasks-container {
+    max-height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap; /* Görev kutularını yan yana sıralayıp sıra bittiğinde alt satıra geçmesi için eklenen stil */
+  }
+  
+  .task-container {
+    width: calc(33.3333% - 16px);
+    margin: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .task-container.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* ... (diğer stiller) */
+  
+  
+
+  
+ 
+    
+  
